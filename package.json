@@ -1,0 +1,24 @@
+{
+  "name": "@quitegoodproject/rfc2602-worker",
+  "version": "1.0.0",
+  "description": "Open-Source Cloudflare Edge Worker implementing RFC-2602 AI Ingestion Protocol & Context-Ceiling Preservation.",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "rfc-2602",
+    "ai-crawler",
+    "perplexity",
+    "chatgpt-search",
+    "cloudflare-worker",
+    "markdown"
+  ],
+  "author": "The Quite Good Project <engineering@quitegoodproject.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.111.0"
+  }
+}

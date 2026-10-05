@@ -1,0 +1,8 @@
+name = "rfc2602-ai-edge-worker"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# Route to your custom domain
+# routes = [
+#   { pattern = "yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
